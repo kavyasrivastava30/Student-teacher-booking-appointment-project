@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Appointment Booking System</h1>
+        
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div class="appointment-container" style="display: none;">
+            <h2>Welcome <span id="roleName"></span></h2>
+            <div id="studentContent" style="display: none;">
+                <h3>Book an Appointment</h3>
+                <label for="teacherSelect">Select Teacher:</label>
+                <select id="teacherSelect">
+                    <option value="teacher1">Mr. Sanjay Sir</option>
+                    <option value="teacher2">Mrs. Kanti Ma'am</option>
+                </select>
+                <button onclick="bookAppointment()">Book Appointment</button>
+            </div>
+            
+            <div id="teacherContent" style="display: none;">
+                <h3>Teacher Dashboard</h3>
+                <p>You can schedule appointments and manage them here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
