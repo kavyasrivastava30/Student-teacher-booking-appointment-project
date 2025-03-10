@@ -1,7 +1,10 @@
 Title:-
 Student teacher booking appointment.
+
 Description:-
 This is an app or a site that is uses by the student to book and appointment with the teacher, and teacher uses this app or site to manage the appointment schedule.
+
+
 How this app works:-
 First enter your valid user name.
 Then enter your password
