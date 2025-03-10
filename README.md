@@ -13,4 +13,4 @@ Then click on login.
 If you are a student then select the teacher to whom you want to book an appointment.
 Then click on book appointment.
 It will show a pop up message that is "your appointment has been booked".
-If you are a techer then on the site you can manage your appointment.
+If you are a teacher then on the site you can manage your appointment.
